@@ -1,5 +1,6 @@
 [server]
 maxUploadSize = 4096
+maxMessageSize = 2000
 
 [theme]
 base="dark"
