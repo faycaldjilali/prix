@@ -375,13 +375,12 @@ def main():
         st.markdown("---")
         st.header("📋 Mots-clés d'intérêt")
         default_interests = [
-            "miroiterie", "métallerie", "menuiserie extérieure",
-            "Travaux de menuiserie et de charpenterie",
-            "Pose de portes et de fenêtres",
-            "Pose d'encadrements de portes et de fenêtres",
-            "Pose de seuils", "Travaux de cloisonnement",
-            "Installation de volets", "Serrurerie",
-            "Clôtures", "Ascenseurs", "Escaliers mécaniques",
+            "miroiterie", 
+            "métallerie",
+            "menuiserie extérieure",
+             "Serrurerie",
+             "Ascenseurs",
+            "Escaliers mécaniques",
         ]
         edited = st.text_area("Un mot-clé par ligne",
                               value="\n".join(default_interests), height=300)
